@@ -79,7 +79,7 @@ const App = () => {
     >
       {!connected ? (
         <Button
-          label="Call Vapi’s Pizza Front Desk"
+          label="Поговорить с ИРЭН"
           onClick={startCallInline}
           isLoading={connecting}
         />
@@ -92,7 +92,7 @@ const App = () => {
       )}
 
       {showPublicKeyInvalidMessage ? <PleaseSetYourPublicKeyMessage /> : null}
-      <ReturnToDocsLink />
+      {/* <ReturnToDocsLink /> */}
     </div>
   );
 };
