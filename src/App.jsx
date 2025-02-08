@@ -6,7 +6,7 @@ import Vapi from "@vapi-ai/web";
 import { isPublicKeyMissingError } from "./utils";
 
 // Put your Vapi Public Key below.
-const vapi = new Vapi("72f4679b-aa49-4f90-8677-974dd58a5b28");
+const vapi = new Vapi("9462a4f6-b1af-4715-8b8f-f67c27e47a5e");
 
 const App = () => {
   const [connecting, setConnecting] = useState(false);
